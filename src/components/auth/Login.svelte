@@ -19,7 +19,7 @@
     <span>or use your account</span>
     <input type="email" bind:value={email} placeholder="Email" />
     <input type="password" bind:value={password} placeholder="Password" />
-    <a href="#">Forgot your password?</a>
+    <a href="#/forget">Forgot your password?</a>
     <button on:click={login}>Sign In</button>
   </form>
 </div>
